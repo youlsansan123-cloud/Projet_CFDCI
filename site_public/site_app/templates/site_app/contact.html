@@ -1,0 +1,76 @@
+{% extends "inscriptions/site/base.html" %}
+
+{% block title %}Contact | CFDCI{% endblock %}
+
+{% block content %}
+<section class="section-intro">
+    <div class="container">
+        <h1>Contact</h1>
+        <p>Contactez le collectif via les informations officielles ou le formulaire.</p>
+    </div>
+</section>
+
+<section class="py-4 pb-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-5">
+                <article class="content-card h-100">
+                    <h2>Coordonnees</h2>
+                    <p><strong>Email :</strong> {{ organisation.email_officiel|default:"Non connecter" }}</p>
+                    <p><strong>Telephone :</strong> {{ organisation.telephone_officiel|default:"Non connecter" }}
+                    </p>
+                    <p class="mb-0"><strong>Adresse :</strong> {{ organisation.adresse|default:"Non connecter" }}</p>
+                </article>
+            </div>
+            <div class="col-lg-7">
+                <article class="content-card">
+                    <h2>Formulaire de contact</h2>
+
+                    {% if success_sent %}
+                    <div class="alert alert-success">Votre message a ete envoye avec succes.</div>
+                    {% endif %}
+
+                    {% if messages %}
+                    {% for message in messages %}
+                    <div class="alert {% if message.tags == 'error' %}alert-danger{% else %}alert-success{% endif %}">{{
+                        message|striptags }}</div>
+                    {% endfor %}
+                    {% endif %}
+
+                    <form method="post" novalidate>
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label class="form-label" for="{{ form.nom.id_for_label }}">Nom</label>
+                            {{ form.nom }}
+                            {% if form.nom.errors %}
+                            {% for error in form.nom.errors %}
+                            <div class="text-danger small mt-1">{{ error }}</div>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="{{ form.email.id_for_label }}">Email</label>
+                            {{ form.email }}
+                            {% if form.email.errors %}
+                            {% for error in form.email.errors %}
+                            <div class="text-danger small mt-1">{{ error }}</div>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="{{ form.message.id_for_label }}">Message</label>
+                            {{ form.message }}
+                            {% if form.message.errors %}
+                            {% for error in form.message.errors %}
+                            <div class="text-danger small mt-1">{{ error }}</div>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+                        <button class="btn btn-cta" type="submit">Envoyer le message</button>
+                    </form>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
