@@ -1,0 +1,140 @@
+{% load widget_tweaks %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription Etudiant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'inscriptions/css/ui.css' %}">
+</head>
+<body>
+    <main class="ui-shell">
+        <section class="ui-hero">
+            <h1>Inscription en ligne</h1>
+            <p>Renseignez vos informations, effectuez le transfert sur un compte de paiement actif, puis l'administrateur valide votre dossier. Votre statut et votre notification sont mis a jour automatiquement.</p>
+        </section>
+
+        <section class="ui-grid">
+            <article class="ui-panel">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                    <h2 class="ui-panel-title mb-0">Formulaire d'inscription</h2>
+                    <a class="ui-link" href="{% url 'suivi_inscription' %}">Consulter mon inscription</a>
+                </div>
+
+                {% if messages %}
+                <div class="mb-3">
+                    {% for message in messages %}
+                    <div class="alert alert-success ui-alert">{{ message }}</div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <form method="post" novalidate class="ui-form">
+                    {% csrf_token %}
+                    {% for field in form %}
+                    <div class="mb-3">
+                        <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+                        {{ field|add_class:"form-control" }}
+                    {% if field.errors %}
+                        {% for error in field.errors %}
+                        <div class="text-danger">{{ error }}</div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                    {% if field.name == 'formation' %}
+                    <div id="formation-details" class="alert alert-secondary d-none">
+                        <h5 class="mb-2">Details de la formation</h5>
+                        <p class="mb-1"><strong>Nom :</strong> <span data-key="nom"></span></p>
+                        <p class="mb-1"><strong>Description :</strong> <span data-key="description"></span></p>
+                        <p class="mb-1"><strong>Prix :</strong> <span data-key="prix"></span> FCFA</p>
+                        <p class="mb-1"><strong>Duree :</strong> <span data-key="duree"></span> heures</p>
+                        <p class="mb-1"><strong>Capacite max :</strong> <span data-key="capacite_max"></span></p>
+                        <p class="mb-1"><strong>Date debut :</strong> <span data-key="date_debut"></span></p>
+                        <p class="mb-0"><strong>Date fin :</strong> <span data-key="date_fin"></span></p>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+
+                    <button type="submit" class="btn btn-primary w-100 mt-2">Valider mon inscription</button>
+                </form>
+            </article>
+
+            <aside class="ui-panel">
+                <h2 class="ui-panel-title">Etapes</h2>
+                <ol class="ui-steps">
+                    <li>
+                        <strong>1. Remplir le formulaire</strong>
+                        Vos informations sont enregistrees avec le statut En attente.
+                    </li>
+                    <li>
+                        <strong>2. Envoyer le paiement</strong>
+                        Utilisez un des comptes ci-dessous et gardez une preuve du transfert.
+                    </li>
+                    <li>
+                        <strong>3. Validation admin</strong>
+                        Apres verification, le statut passe automatiquement a Valide.
+                    </li>
+                    <li>
+                        <strong>4. Notification automatique</strong>
+                        Vous recevez automatiquement un email et une notification dans votre suivi.
+                    </li>
+                </ol>
+
+                {% if comptes_paiement %}
+                <hr>
+                <h3 class="h6 fw-bold">Comptes de paiement actifs</h3>
+                {% for compte in comptes_paiement %}
+                <div class="payment-line">
+                    {{ compte.get_operateur_display }} : <strong>{{ compte.numero_telephone }}</strong>{% if compte.titulaire %} ({{ compte.titulaire }}){% endif %}
+                </div>
+                {% endfor %}
+                {% else %}
+                <hr>
+                <p class="text-muted mb-0">Aucun compte de paiement actif pour le moment.</p>
+                {% endif %}
+            </aside>
+        </section>
+    </main>
+
+    {{ formations_data|json_script:"formations-data" }}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const formationField = document.getElementById("id_formation");
+        const detailsBox = document.getElementById("formation-details");
+        const formations = JSON.parse(document.getElementById("formations-data").textContent);
+
+        function renderFormationDetails() {
+            if (!formationField || !detailsBox) {
+                return;
+            }
+
+            const selectedId = parseInt(formationField.value, 10);
+            const formation = formations.find((item) => item.id === selectedId);
+
+            if (!formation) {
+                detailsBox.classList.add("d-none");
+                return;
+            }
+
+            detailsBox.querySelector('[data-key="nom"]').textContent = formation.nom;
+            detailsBox.querySelector('[data-key="description"]').textContent = formation.description;
+            detailsBox.querySelector('[data-key="prix"]').textContent = formation.prix;
+            detailsBox.querySelector('[data-key="duree"]').textContent = formation.duree;
+            detailsBox.querySelector('[data-key="capacite_max"]').textContent = formation.capacite_max;
+            detailsBox.querySelector('[data-key="date_debut"]').textContent = formation.date_debut;
+            detailsBox.querySelector('[data-key="date_fin"]').textContent = formation.date_fin;
+            detailsBox.classList.remove("d-none");
+        }
+
+        if (formationField) {
+            formationField.addEventListener("change", renderFormationDetails);
+            renderFormationDetails();
+        }
+    </script>
+</body>
+</html>

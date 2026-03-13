@@ -1,0 +1,115 @@
+{% extends "inscriptions/site/base.html" %}
+
+{% block title %}Accueil | CFDCI{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+                <p class="eyebrow">CFDCI</p>
+                <h1>
+                    {% if organisation and organisation.nom %}
+                    {{ organisation.nom }}
+                    {% else %}
+                    Collectif des Filles Dynamiques de Cote d Ivoire
+                    {% endif %}
+                </h1>
+                <p class="lead-text">
+                    Cree en 2013, le CFDCI accompagne les filles de toutes couches sociales vers leur
+                    accomplissement personnel et professionnel par l education, la formation et l engagement citoyen.
+                </p>
+                <a href="{% url 'a_propos' %}" class="btn btn-cta">Decouvrir nos activites</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero-image-wrap">
+                    {% if organisation and organisation.image_banniere_url %}
+                    <img src="{{ organisation.image_banniere_url }}" alt="Banniere CFDCI" class="img-fluid hero-image">
+                    {% else %}
+                    <div class="hero-image-placeholder">
+                        Plateforme institutionnelle pour valoriser la mission et la vision du CFDCI.
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <article class="content-card h-100">
+                    <span class="badge-soft mb-2">Notre vision</span>
+                    <h2>Vision</h2>
+                    <p>
+                        Un monde ideal ou chaque fille est respectee, valorisee pour ses talents uniques et soutenue
+                        dans son parcours vers son accomplissement.
+                    </p>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="content-card h-100">
+                    <span class="badge-soft mb-2">Notre mission</span>
+                    <h2>Nos priorites d action</h2>
+                    <div class="list-highlight">
+                        <div class="item">Promouvoir l education et la formation.</div>
+                        <div class="item">Soutenir l expression creative et culturelle.</div>
+                        <div class="item">Promouvoir la sante et le bien-etre.</div>
+                        <div class="item">Creer des espaces d echange et d ecoute.</div>
+                        <div class="item">Favoriser l egalite des chances.</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-5">
+    <div class="container">
+        <article class="content-card">
+            <span class="badge-soft mb-3">Nos valeurs</span>
+            <div class="values-grid">
+                <div class="value-card">EMPATHIE</div>
+                <div class="value-card">LOYAUTE</div>
+                <div class="value-card">EQUITE</div>
+                <div class="value-card">PROFESSIONALITE</div>
+                <div class="value-card">ESPRIT D EQUIPE</div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="pb-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <article class="content-card h-100">
+                    <span class="badge-soft mb-2">Nos actions</span>
+                    <h2>Programmes phares</h2>
+                    <div class="list-highlight">
+                        <div class="item">Scolarisation et formation avec transmission de valeurs.</div>
+                        <div class="item">Journee de la jeune fille: education financiere, droits, lutte contre les violences basees sur le genre.</div>
+                        <div class="item">Cadre de vie: sante reproductive, nutrition, eau, assainissement, climat.</div>
+                        <div class="item">Clubs de jeunes filles: centres d ecoute, assistance, sport, loisir, initiation a l intelligence artificielle.</div>
+                        <div class="item">Suivi-evaluation et plaidoyer avec ONG et agences internationales.</div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-5">
+                <article class="content-card h-100">
+                    <span class="badge-soft mb-2">Mise en oeuvre</span>
+                    <h2>Strategie en 4 phases</h2>
+                    <div class="phase-grid">
+                        <div class="phase-card"><strong>Phase 1</strong><br>Etude du terrain et collecte des donnees.</div>
+                        <div class="phase-card"><strong>Phase 2</strong><br>Campagne de sensibilisation et lancement des programmes.</div>
+                        <div class="phase-card"><strong>Phase 3</strong><br>Deroulement des activites programmees.</div>
+                        <div class="phase-card"><strong>Phase 4</strong><br>Evaluation des projets et impacts.</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

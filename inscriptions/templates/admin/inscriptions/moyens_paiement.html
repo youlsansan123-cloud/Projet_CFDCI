@@ -1,0 +1,36 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<div id="content-main">
+    <h1>Moyens de paiement</h1>
+    <p>Ordre prioritaire: Orange, MTN, Moov, Wave, Tresor, Djamo.</p>
+    <p>
+        <a class="button" href="{% url 'admin:inscriptions_comptepaiement_changelist' %}">Gerer les comptes</a>
+    </p>
+
+    <table id="result_list">
+        <thead>
+            <tr>
+                <th>Operateur</th>
+                <th>Numero</th>
+                <th>Titulaire</th>
+                <th>Actif</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for compte in comptes %}
+            <tr>
+                <td>{{ compte.get_operateur_display }}</td>
+                <td>{{ compte.numero_telephone }}</td>
+                <td>{{ compte.titulaire|default:"-" }}</td>
+                <td>{% if compte.est_actif %}Oui{% else %}Non{% endif %}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">Aucun compte de paiement configure.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

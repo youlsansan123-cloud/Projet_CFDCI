@@ -1,0 +1,462 @@
+[
+{
+  "model": "inscriptions.formation",
+  "pk": 1,
+  "fields": {
+    "nom": "PYTHON",
+    "description": "Meilleur Language de Programmation",
+    "prix": "25000.00",
+    "duree": 15,
+    "capacite_max": 5,
+    "date_debut": "2026-02-15",
+    "date_fin": "2026-02-20",
+    "est_active": true,
+    "created_at": "2026-02-11T11:54:08.677Z",
+    "updated_at": "2026-02-11T11:54:08.677Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 2,
+  "fields": {
+    "nom": "JAVA POUR LE WEB",
+    "description": "Très puissant pour les developpeur",
+    "prix": "50000.00",
+    "duree": 10,
+    "capacite_max": 6,
+    "date_debut": "2026-03-13",
+    "date_fin": "2026-04-01",
+    "est_active": true,
+    "created_at": "2026-02-11T16:02:48.806Z",
+    "updated_at": "2026-02-11T16:02:48.806Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 3,
+  "fields": {
+    "nom": "Développement Web avec Django",
+    "description": "Cette formation permet d’apprendre à créer des applications web dynamiques avec Python et Django. Les participants découvriront la création de bases de données, la gestion des utilisateurs, l’authentification, ainsi que le déploiement d’une application en ligne.",
+    "prix": "75000.00",
+    "duree": 25,
+    "capacite_max": 25,
+    "date_debut": "2026-03-01",
+    "date_fin": "2026-03-03",
+    "est_active": true,
+    "created_at": "2026-02-20T23:48:22.551Z",
+    "updated_at": "2026-02-20T23:48:22.551Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 4,
+  "fields": {
+    "nom": "Base de Données et MySQL",
+    "description": "Cette formation initie les apprenants à la conception et à la gestion de bases de données relationnelles. Elle couvre la modélisation, les requêtes SQL, les jointures, les contraintes d’intégrité et l’optimisation des performances.",
+    "prix": "52150.00",
+    "duree": 15,
+    "capacite_max": 20,
+    "date_debut": "2026-03-01",
+    "date_fin": "2026-03-25",
+    "est_active": true,
+    "created_at": "2026-02-20T23:52:22.469Z",
+    "updated_at": "2026-02-20T23:52:22.469Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 5,
+  "fields": {
+    "nom": "Introduction à l'Intelligence Artifficielle",
+    "description": "Cette formation propose une introduction aux concepts fondamentaux de l’intelligence artificielle, du machine learning et de l’analyse de données. Les participants découvriront les bases théoriques ainsi que des exemples pratiques avec Python.",
+    "prix": "79900.00",
+    "duree": 22,
+    "capacite_max": 13,
+    "date_debut": "2026-02-28",
+    "date_fin": "2026-03-25",
+    "est_active": true,
+    "created_at": "2026-02-20T23:58:37.270Z",
+    "updated_at": "2026-02-20T23:58:37.270Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 3,
+  "fields": {
+    "nom": "MEDA",
+    "prenom": "JEAN BAPTISTE",
+    "email": "youlsansan006@gmail.com",
+    "telephone": "0575402661",
+    "formation": 1,
+    "statut": "EN_ATTENTE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2003-09-23",
+    "numero_etudiant": "00341",
+    "est_actif": true,
+    "created_at": "2026-02-11T04:31:00.154Z",
+    "updated_at": "2026-02-11T04:31:00.154Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 4,
+  "fields": {
+    "nom": "TOURE",
+    "prenom": "VICTOIRE",
+    "email": "touresansan123@gmail.com",
+    "telephone": "0778114938",
+    "formation": 1,
+    "statut": "VALIDE",
+    "ville": "ABENGOUROU",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2010-10-10",
+    "numero_etudiant": "7801",
+    "est_actif": true,
+    "created_at": "2026-02-11T05:02:33.028Z",
+    "updated_at": "2026-02-20T00:12:53.888Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 6,
+  "fields": {
+    "nom": "KOUA",
+    "prenom": "YOUL",
+    "email": "l3simathinfo@gmail.com",
+    "telephone": "0987675467",
+    "formation": 1,
+    "statut": "EN_ATTENTE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2026-02-06",
+    "numero_etudiant": "908786",
+    "est_actif": true,
+    "created_at": "2026-02-11T16:28:34.277Z",
+    "updated_at": "2026-02-11T16:28:34.277Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 9,
+  "fields": {
+    "nom": "TOURE",
+    "prenom": "ERICA",
+    "email": "toureerica43@gmail.com",
+    "telephone": "0709878564",
+    "formation": 1,
+    "statut": "EN_ATTENTE",
+    "ville": "ABOBO",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2026-02-14",
+    "numero_etudiant": "0009",
+    "est_actif": true,
+    "created_at": "2026-02-16T14:37:33.438Z",
+    "updated_at": "2026-02-16T14:37:33.438Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 10,
+  "fields": {
+    "nom": "KPANTIERI",
+    "prenom": "ISMAEL",
+    "email": "kpantieri006@gmail.com",
+    "telephone": "0709878564",
+    "formation": 1,
+    "statut": "VALIDE",
+    "ville": "ABOBO",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2026-02-14",
+    "numero_etudiant": "00021",
+    "est_actif": true,
+    "created_at": "2026-02-17T15:57:32.709Z",
+    "updated_at": "2026-02-17T15:58:55.747Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 11,
+  "fields": {
+    "nom": "ANEY",
+    "prenom": "YJEAN LUC",
+    "email": "l3simathinfos@gmail.com",
+    "telephone": "0778114938",
+    "formation": 2,
+    "statut": "VALIDE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2002-02-23",
+    "numero_etudiant": "123",
+    "est_actif": true,
+    "created_at": "2026-02-20T00:14:45.386Z",
+    "updated_at": "2026-02-20T00:16:26.943Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 12,
+  "fields": {
+    "nom": "FULGENCE",
+    "prenom": "YOUL",
+    "email": "youlsansan123@gmail.com",
+    "telephone": "0778114938",
+    "formation": 1,
+    "statut": "VALIDE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2005-02-12",
+    "numero_etudiant": "0034",
+    "est_actif": true,
+    "created_at": "2026-02-20T00:24:44.990Z",
+    "updated_at": "2026-02-20T00:26:55.439Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 13,
+  "fields": {
+    "nom": "YOUL",
+    "prenom": "NESTOR",
+    "email": "nestor@gmail.com",
+    "telephone": "0575402661",
+    "formation": 2,
+    "statut": "EN_ATTENTE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2005-02-12",
+    "numero_etudiant": "009",
+    "est_actif": true,
+    "created_at": "2026-02-20T00:29:31.806Z",
+    "updated_at": "2026-02-20T00:29:31.807Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 14,
+  "fields": {
+    "nom": "ABLE",
+    "prenom": "NICK",
+    "email": "bleable@gmail.com",
+    "telephone": "0575402661",
+    "formation": 5,
+    "statut": "VALIDE",
+    "ville": "GAGNOA",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2002-05-12",
+    "numero_etudiant": "3434",
+    "est_actif": true,
+    "created_at": "2026-02-21T09:23:22.166Z",
+    "updated_at": "2026-02-21T09:26:25.434Z"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 4,
+  "fields": {
+    "etudiant": 4,
+    "montant": "25000.00",
+    "date_paiement": "2026-02-20T00:12:53.895Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 5,
+  "fields": {
+    "etudiant": 11,
+    "montant": "50000.00",
+    "date_paiement": "2026-02-20T00:15:52.679Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 6,
+  "fields": {
+    "etudiant": 12,
+    "montant": "25000.00",
+    "date_paiement": "2026-02-20T00:26:52.488Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 7,
+  "fields": {
+    "etudiant": 14,
+    "montant": "79900.00",
+    "date_paiement": "2026-02-21T09:26:25.438Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 1,
+  "fields": {
+    "operateur": "WAVE",
+    "numero_telephone": "0778114938",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T15:54:28.748Z",
+    "updated_at": "2026-02-17T23:51:01.600Z"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 2,
+  "fields": {
+    "operateur": "ORANGE_MONEY",
+    "numero_telephone": "0778114938",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T23:49:09.701Z",
+    "updated_at": "2026-02-17T23:50:53.236Z"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 3,
+  "fields": {
+    "operateur": "MTN_MONEY",
+    "numero_telephone": "0575402661",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T23:49:34.617Z",
+    "updated_at": "2026-02-17T23:50:44.320Z"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 4,
+  "fields": {
+    "operateur": "DJAMO",
+    "numero_telephone": "0778114938",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T23:50:34.658Z",
+    "updated_at": "2026-02-17T23:50:34.658Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 3,
+  "fields": {
+    "etudiant": 4,
+    "titre": "Inscription validee",
+    "message": "Bonjour VICTOIRE, votre inscription a la formation PYTHON a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:12:53.898Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 4,
+  "fields": {
+    "etudiant": 11,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour YJEAN LUC, votre inscription a la formation JAVA POUR LE WEB est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:14:45.397Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 5,
+  "fields": {
+    "etudiant": 11,
+    "titre": "Inscription validee",
+    "message": "Bonjour YJEAN LUC, votre inscription a la formation JAVA POUR LE WEB a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:15:52.681Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 6,
+  "fields": {
+    "etudiant": 12,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour YOUL, votre inscription a la formation PYTHON est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:24:45.004Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 7,
+  "fields": {
+    "etudiant": 12,
+    "titre": "Inscription validee",
+    "message": "Bonjour YOUL, votre inscription a la formation PYTHON a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:26:52.491Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 8,
+  "fields": {
+    "etudiant": 13,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour NESTOR, votre inscription a la formation JAVA POUR LE WEB est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:29:31.817Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 9,
+  "fields": {
+    "etudiant": 14,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour NICK, votre inscription a la formation Introduction à l'Intelligence Artifficielle est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-21T09:23:22.176Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 10,
+  "fields": {
+    "etudiant": 14,
+    "titre": "Inscription validee",
+    "message": "Bonjour NICK, votre inscription a la formation Introduction à l'Intelligence Artifficielle a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-21T09:26:25.438Z"
+  }
+},
+{
+  "model": "inscriptions.membreequipe",
+  "pk": 1,
+  "fields": {
+    "organisation": null,
+    "nom": "DOHOUPKA GERTRUDE",
+    "role": "PRESIDENTE",
+    "ordre_affichage": 1,
+    "created_at": "2026-02-27T19:14:58.852Z"
+  }
+},
+{
+  "model": "inscriptions.messagecontact",
+  "pk": 1,
+  "fields": {
+    "nom": "FULGENCE",
+    "email": "youlsansan123@gmail.com",
+    "message": "je veux appartenir à CFDCI",
+    "created_at": "2026-02-27T18:11:43.404Z",
+    "est_traite": false
+  }
+},
+{
+  "model": "inscriptions.messagecontact",
+  "pk": 2,
+  "fields": {
+    "nom": "LIZIE WILIAMS",
+    "email": "liziewiliams@gmail.com",
+    "message": "je suis en maths",
+    "created_at": "2026-02-27T20:47:47.380Z",
+    "est_traite": true
+  }
+}
+]

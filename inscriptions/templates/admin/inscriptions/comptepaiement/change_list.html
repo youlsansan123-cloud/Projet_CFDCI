@@ -1,0 +1,10 @@
+{% extends "admin/change_list.html" %}
+
+{% block object-tools-items %}
+<li>
+    <a href="{% url 'admin:inscriptions_comptepaiement_moyens_paiement' %}">
+        Page Moyens de paiement
+    </a>
+</li>
+{{ block.super }}
+{% endblock %}

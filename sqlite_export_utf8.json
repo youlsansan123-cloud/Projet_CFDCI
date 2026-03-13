@@ -1,0 +1,2097 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-02-09T23:07:55.921Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "YOUL FULGENCE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-02-11T11:54:08.680Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "PYTHON - 25000 FCFA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-11T11:54:59.774Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "FULGENCE - VALIDE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-11T16:02:48.814Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "JAVA POUR LE WEB - 50000 FCFA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-02-11T16:04:47.989Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "SANOGO - EN_ATTENTE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-02-11T16:37:44.396Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "SANOGO - EN_ATTENTE",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-02-11T16:38:09.065Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "SOULEYMAN SANOGO",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-02-12T14:08:17.716Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "KOUA - EN_ATTENTE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-02-17T15:54:28.751Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Wave - 0778114938",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-02-17T15:58:58.301Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "ISMAEL KPANTIERI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-02-17T16:35:24.336Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "YOUL FULGENCE",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-02-17T23:22:28.558Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "YOUL FULGENCE - ALGEBRE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-02-17T23:25:19.203Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "YOUL KOFFI",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-02-17T23:49:09.704Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Orange Money - 0778114938",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-02-17T23:49:34.621Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "MTN Money - 0575402661",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-02-17T23:50:34.661Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Djamo - 0778114938",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-02-17T23:50:44.324Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "MTN Money - 0575402661",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Titulaire du compte\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-02-17T23:50:53.240Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Orange Money - 0778114938",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Titulaire du compte\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-02-17T23:51:01.604Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Wave - 0778114938",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Titulaire du compte\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-02-18T00:04:11.451Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "MOUMOUNI OUEDRAOGO",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-02-18T00:05:40.942Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Jonas koffi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-02-20T00:12:25.336Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "YOUL KOUA - EN_ATTENTE",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-02-20T00:12:57.331Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "VICTOIRE TOURE",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-02-20T00:15:55.315Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "YJEAN LUC ANEY",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-02-20T00:16:26.950Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "YJEAN LUC ANEY",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-02-20T00:23:19.062Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "YOUL FULGENCE",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-02-20T00:26:55.243Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "YOUL FULGENCE",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-02-20T00:26:55.447Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "YOUL FULGENCE",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-02-20T23:48:22.559Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Développement Web avec Django - 75000 FCFA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-02-20T23:52:22.472Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Base de Données et MySQL - 52150 FCFA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-02-20T23:58:37.273Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Introduction à l'Intelligence Artifficielle - 79900 FCFA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-02-21T00:01:46.361Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "MOUMOUNI OUEDRAOGO",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-02-21T00:01:56.670Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Jonas koffi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-02-21T09:26:26.815Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "NICK ABLE",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Statut d'inscription\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-02-27T19:14:58.856Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "DOHOUPKA GERTRUDE - PRESIDENTE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-02-27T20:48:33.287Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "LIZIE WILIAMS - liziewiliams@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Traite\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-02-27T20:48:48.207Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "LIZIE WILIAMS - liziewiliams@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Traite\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-02-27T20:48:58.404Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "LIZIE WILIAMS - liziewiliams@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Traite\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-02-27T21:12:23.191Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "TIE BI - tiebi23@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-02-27T21:12:40.566Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "TIE BI - tiebi23@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-02-27T21:12:48.585Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "TIE BI - tiebi23@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-02-27T21:35:30.856Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "youl",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"User permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-02-27T21:36:49.834Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "youl",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-02-27T21:38:43.148Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Visible\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-02-27T21:41:30.507Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-02-27T21:42:05.151Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Favicon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-02-27T21:43:10.377Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-02-27T21:44:29.936Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Visible\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-02-27T21:45:57.712Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Visible\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-02-27T21:53:25.991Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "CFDCI",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Membre equipe\", \"object\": \"YOUL - CHEF DE PROJET\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-02-27T21:59:28.780Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-02-27T22:10:57.354Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "CFDCI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email officiel\", \"Telephone officiel\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-02-27T22:12:51.941Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "CFDCI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Telephone officiel\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-02-27T23:02:18.798Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "YOUL - CHEF DE PROJET",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ordre d affichage\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-02-27T23:49:52.326Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Favicon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-02-27T23:52:27.172Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-02-27T23:52:29.973Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-02-27T23:52:54.143Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-02-27T23:54:32.394Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-02-27T23:57:14.883Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Collapsible stacked inlines\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-02-27T23:58:33.682Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-03-04T12:50:23.429Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Favicon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-03-04T13:08:07.306Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "CFDCI",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-03-04T13:08:39.098Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "DOHOUPKA GERTRUDE - PRESIDENTE",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Étudiant",
+    "content_type": 7,
+    "codename": "add_etudiant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Étudiant",
+    "content_type": 7,
+    "codename": "change_etudiant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Étudiant",
+    "content_type": 7,
+    "codename": "delete_etudiant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Étudiant",
+    "content_type": 7,
+    "codename": "view_etudiant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Formation",
+    "content_type": 8,
+    "codename": "add_formation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Formation",
+    "content_type": 8,
+    "codename": "change_formation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Formation",
+    "content_type": 8,
+    "codename": "delete_formation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Formation",
+    "content_type": 8,
+    "codename": "view_formation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add paiement",
+    "content_type": 9,
+    "codename": "add_paiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change paiement",
+    "content_type": 9,
+    "codename": "change_paiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete paiement",
+    "content_type": 9,
+    "codename": "delete_paiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view paiement",
+    "content_type": 9,
+    "codename": "view_paiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Theme",
+    "content_type": 10,
+    "codename": "add_theme"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Theme",
+    "content_type": 10,
+    "codename": "change_theme"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Theme",
+    "content_type": 10,
+    "codename": "delete_theme"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Theme",
+    "content_type": 10,
+    "codename": "view_theme"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Compte de paiement",
+    "content_type": 11,
+    "codename": "add_comptepaiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Compte de paiement",
+    "content_type": 11,
+    "codename": "change_comptepaiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Compte de paiement",
+    "content_type": 11,
+    "codename": "delete_comptepaiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Compte de paiement",
+    "content_type": 11,
+    "codename": "view_comptepaiement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Notification utilisateur",
+    "content_type": 12,
+    "codename": "add_notificationutilisateur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Notification utilisateur",
+    "content_type": 12,
+    "codename": "change_notificationutilisateur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Notification utilisateur",
+    "content_type": 12,
+    "codename": "delete_notificationutilisateur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Notification utilisateur",
+    "content_type": 12,
+    "codename": "view_notificationutilisateur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add Message contact",
+    "content_type": 14,
+    "codename": "add_messagecontact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change Message contact",
+    "content_type": 14,
+    "codename": "change_messagecontact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete Message contact",
+    "content_type": 14,
+    "codename": "delete_messagecontact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view Message contact",
+    "content_type": 14,
+    "codename": "view_messagecontact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add Membre equipe",
+    "content_type": 13,
+    "codename": "add_membreequipe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change Membre equipe",
+    "content_type": 13,
+    "codename": "change_membreequipe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete Membre equipe",
+    "content_type": 13,
+    "codename": "delete_membreequipe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view Membre equipe",
+    "content_type": 13,
+    "codename": "view_membreequipe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Organisation",
+    "content_type": 15,
+    "codename": "add_organisation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Organisation",
+    "content_type": 15,
+    "codename": "change_organisation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Organisation",
+    "content_type": 15,
+    "codename": "delete_organisation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Organisation",
+    "content_type": 15,
+    "codename": "view_organisation"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Zr0jRJqlKzaNXsF554bNBE$8ojK6JIMcV0hRljdOkeRmKr/a+Vnf/CXXoJnYF3/2EE=",
+    "last_login": "2026-02-27T23:55:11.913Z",
+    "is_superuser": true,
+    "username": "youl",
+    "first_name": "FULGENCE",
+    "last_name": "YOUL",
+    "email": "youlsansan123@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-09T20:11:16Z",
+    "groups": [],
+    "user_permissions": [
+      1,
+      2,
+      3,
+      4,
+      37,
+      38,
+      39,
+      40,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      41,
+      42,
+      43,
+      44,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      53,
+      54,
+      55,
+      56,
+      49,
+      50,
+      51,
+      52,
+      45,
+      46,
+      47,
+      48,
+      57,
+      58,
+      59,
+      60,
+      33,
+      34,
+      35,
+      36,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "etudiant"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "formation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "paiement"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "admin_interface",
+    "model": "theme"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "comptepaiement"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "notificationutilisateur"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "membreequipe"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "messagecontact"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "inscriptions",
+    "model": "organisation"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "krd6q6fsscghzi74pvq94gg1xr1lcvrk",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vtQ2X:iY2WLAxUvA3s3EskxyM7cA3jL8v-VGGaMEXfqm2LpNo",
+    "expire_date": "2026-03-06T12:55:25.260Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pfeodn1zcqinynjicqmvxlrd5e89ns18",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vsOAA:p5htLa9Cn6BMYi52JGUAjf6IoBW5f3FjLlsAxAPUSYQ",
+    "expire_date": "2026-03-03T16:43:02.092Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pyx0h2ft98f57v8158oaizzvphdd4jv1",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vsOA8:uRdkHckJQy275flJr403ysSOVGvuT4J36ipQ5N2kszk",
+    "expire_date": "2026-03-03T16:43:00.221Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q1xrjlk522dlqof7s89tqoizgpfa11nv",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vw7fr:uttTvEh7gWtXYuGijduesOyZJkyj7OFKPJtCfLBGi2k",
+    "expire_date": "2026-03-13T23:55:11.922Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "srnxhpfszz8aidg6ev1528jom7tpuk6y",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vtDvc:Nbn1I83Gm3W43OeE4FwT8OaNpKphgPweyLKMhDjTleM",
+    "expire_date": "2026-03-05T23:59:28.602Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sxy40meevszsz2mpwo9b92godl3xtvh5",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vtQ2U:DBNZ_mIrJ9LvvaNVUcUWO2Ax5qh7Nd1ixIqM1GQ9k4w",
+    "expire_date": "2026-03-06T12:55:22.732Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vu30xlyp7hkl44qsfcme2kp4slzfz47x",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vtQ2Z:tgHoRYEE9gfSI6FYdKHy0JHqkp5GmXAyE4z9W9cGkqI",
+    "expire_date": "2026-03-06T12:55:27.445Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yni0buwd8fwx02ir2om885t4lz421oud",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEw5VFcuvcbyDAMUjU0Ke3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID247yHdst1nS3NZlSnJX5EG7vM6Zn5fD_Tuo2Ou3HiAor8oQLDNZ0AqsMakAs2MqQERhTOgwgdOWfEZmA77kMSRt2ATx_gDk8zhl:1vsOAC:bRy7tqSuHAETgThxIvSM-C0Gvw61iacZ1FLLajt_3Ho",
+    "expire_date": "2026-03-03T16:43:04.321Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 1,
+  "fields": {
+    "nom": "PYTHON",
+    "description": "Meilleur Language de Programmation",
+    "prix": "25000.00",
+    "duree": 15,
+    "capacite_max": 5,
+    "date_debut": "2026-02-15",
+    "date_fin": "2026-02-20",
+    "est_active": true,
+    "created_at": "2026-02-11T11:54:08.677Z",
+    "updated_at": "2026-02-11T11:54:08.677Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 2,
+  "fields": {
+    "nom": "JAVA POUR LE WEB",
+    "description": "Très puissant pour les developpeur",
+    "prix": "50000.00",
+    "duree": 10,
+    "capacite_max": 6,
+    "date_debut": "2026-03-13",
+    "date_fin": "2026-04-01",
+    "est_active": true,
+    "created_at": "2026-02-11T16:02:48.806Z",
+    "updated_at": "2026-02-11T16:02:48.806Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 3,
+  "fields": {
+    "nom": "Développement Web avec Django",
+    "description": "Cette formation permet d’apprendre à créer des applications web dynamiques avec Python et Django. Les participants découvriront la création de bases de données, la gestion des utilisateurs, l’authentification, ainsi que le déploiement d’une application en ligne.",
+    "prix": "75000.00",
+    "duree": 25,
+    "capacite_max": 25,
+    "date_debut": "2026-03-01",
+    "date_fin": "2026-03-03",
+    "est_active": true,
+    "created_at": "2026-02-20T23:48:22.551Z",
+    "updated_at": "2026-02-20T23:48:22.551Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 4,
+  "fields": {
+    "nom": "Base de Données et MySQL",
+    "description": "Cette formation initie les apprenants à la conception et à la gestion de bases de données relationnelles. Elle couvre la modélisation, les requêtes SQL, les jointures, les contraintes d’intégrité et l’optimisation des performances.",
+    "prix": "52150.00",
+    "duree": 15,
+    "capacite_max": 20,
+    "date_debut": "2026-03-01",
+    "date_fin": "2026-03-25",
+    "est_active": true,
+    "created_at": "2026-02-20T23:52:22.469Z",
+    "updated_at": "2026-02-20T23:52:22.469Z"
+  }
+},
+{
+  "model": "inscriptions.formation",
+  "pk": 5,
+  "fields": {
+    "nom": "Introduction à l'Intelligence Artifficielle",
+    "description": "Cette formation propose une introduction aux concepts fondamentaux de l’intelligence artificielle, du machine learning et de l’analyse de données. Les participants découvriront les bases théoriques ainsi que des exemples pratiques avec Python.",
+    "prix": "79900.00",
+    "duree": 22,
+    "capacite_max": 13,
+    "date_debut": "2026-02-28",
+    "date_fin": "2026-03-25",
+    "est_active": true,
+    "created_at": "2026-02-20T23:58:37.270Z",
+    "updated_at": "2026-02-20T23:58:37.270Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 3,
+  "fields": {
+    "nom": "MEDA",
+    "prenom": "JEAN BAPTISTE",
+    "email": "youlsansan006@gmail.com",
+    "telephone": "0575402661",
+    "formation": 1,
+    "statut": "EN_ATTENTE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2003-09-23",
+    "numero_etudiant": "00341",
+    "est_actif": true,
+    "created_at": "2026-02-11T04:31:00.154Z",
+    "updated_at": "2026-02-11T04:31:00.154Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 4,
+  "fields": {
+    "nom": "TOURE",
+    "prenom": "VICTOIRE",
+    "email": "touresansan123@gmail.com",
+    "telephone": "0778114938",
+    "formation": 1,
+    "statut": "VALIDE",
+    "ville": "ABENGOUROU",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2010-10-10",
+    "numero_etudiant": "7801",
+    "est_actif": true,
+    "created_at": "2026-02-11T05:02:33.028Z",
+    "updated_at": "2026-02-20T00:12:53.888Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 6,
+  "fields": {
+    "nom": "KOUA",
+    "prenom": "YOUL",
+    "email": "l3simathinfo@gmail.com",
+    "telephone": "0987675467",
+    "formation": 1,
+    "statut": "EN_ATTENTE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2026-02-06",
+    "numero_etudiant": "908786",
+    "est_actif": true,
+    "created_at": "2026-02-11T16:28:34.277Z",
+    "updated_at": "2026-02-11T16:28:34.277Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 9,
+  "fields": {
+    "nom": "TOURE",
+    "prenom": "ERICA",
+    "email": "toureerica43@gmail.com",
+    "telephone": "0709878564",
+    "formation": 1,
+    "statut": "EN_ATTENTE",
+    "ville": "ABOBO",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2026-02-14",
+    "numero_etudiant": "0009",
+    "est_actif": true,
+    "created_at": "2026-02-16T14:37:33.438Z",
+    "updated_at": "2026-02-16T14:37:33.438Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 10,
+  "fields": {
+    "nom": "KPANTIERI",
+    "prenom": "ISMAEL",
+    "email": "kpantieri006@gmail.com",
+    "telephone": "0709878564",
+    "formation": 1,
+    "statut": "VALIDE",
+    "ville": "ABOBO",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2026-02-14",
+    "numero_etudiant": "00021",
+    "est_actif": true,
+    "created_at": "2026-02-17T15:57:32.709Z",
+    "updated_at": "2026-02-17T15:58:55.747Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 11,
+  "fields": {
+    "nom": "ANEY",
+    "prenom": "YJEAN LUC",
+    "email": "l3simathinfos@gmail.com",
+    "telephone": "0778114938",
+    "formation": 2,
+    "statut": "VALIDE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2002-02-23",
+    "numero_etudiant": "123",
+    "est_actif": true,
+    "created_at": "2026-02-20T00:14:45.386Z",
+    "updated_at": "2026-02-20T00:16:26.943Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 12,
+  "fields": {
+    "nom": "FULGENCE",
+    "prenom": "YOUL",
+    "email": "youlsansan123@gmail.com",
+    "telephone": "0778114938",
+    "formation": 1,
+    "statut": "VALIDE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2005-02-12",
+    "numero_etudiant": "0034",
+    "est_actif": true,
+    "created_at": "2026-02-20T00:24:44.990Z",
+    "updated_at": "2026-02-20T00:26:55.439Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 13,
+  "fields": {
+    "nom": "YOUL",
+    "prenom": "NESTOR",
+    "email": "nestor@gmail.com",
+    "telephone": "0575402661",
+    "formation": 2,
+    "statut": "EN_ATTENTE",
+    "ville": "ABIDJAN",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2005-02-12",
+    "numero_etudiant": "009",
+    "est_actif": true,
+    "created_at": "2026-02-20T00:29:31.806Z",
+    "updated_at": "2026-02-20T00:29:31.807Z"
+  }
+},
+{
+  "model": "inscriptions.etudiant",
+  "pk": 14,
+  "fields": {
+    "nom": "ABLE",
+    "prenom": "NICK",
+    "email": "bleable@gmail.com",
+    "telephone": "0575402661",
+    "formation": 5,
+    "statut": "VALIDE",
+    "ville": "GAGNOA",
+    "pays": "Côte d'Ivoire",
+    "date_naissance": "2002-05-12",
+    "numero_etudiant": "3434",
+    "est_actif": true,
+    "created_at": "2026-02-21T09:23:22.166Z",
+    "updated_at": "2026-02-21T09:26:25.434Z"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 4,
+  "fields": {
+    "etudiant": 4,
+    "montant": "25000.00",
+    "date_paiement": "2026-02-20T00:12:53.895Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 5,
+  "fields": {
+    "etudiant": 11,
+    "montant": "50000.00",
+    "date_paiement": "2026-02-20T00:15:52.679Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 6,
+  "fields": {
+    "etudiant": 12,
+    "montant": "25000.00",
+    "date_paiement": "2026-02-20T00:26:52.488Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.paiement",
+  "pk": 7,
+  "fields": {
+    "etudiant": 14,
+    "montant": "79900.00",
+    "date_paiement": "2026-02-21T09:26:25.438Z",
+    "statut": "VALIDE"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 1,
+  "fields": {
+    "operateur": "WAVE",
+    "numero_telephone": "0778114938",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T15:54:28.748Z",
+    "updated_at": "2026-02-17T23:51:01.600Z"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 2,
+  "fields": {
+    "operateur": "ORANGE_MONEY",
+    "numero_telephone": "0778114938",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T23:49:09.701Z",
+    "updated_at": "2026-02-17T23:50:53.236Z"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 3,
+  "fields": {
+    "operateur": "MTN_MONEY",
+    "numero_telephone": "0575402661",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T23:49:34.617Z",
+    "updated_at": "2026-02-17T23:50:44.320Z"
+  }
+},
+{
+  "model": "inscriptions.comptepaiement",
+  "pk": 4,
+  "fields": {
+    "operateur": "DJAMO",
+    "numero_telephone": "0778114938",
+    "titulaire": "YOUL FULGENCE",
+    "est_actif": true,
+    "created_at": "2026-02-17T23:50:34.658Z",
+    "updated_at": "2026-02-17T23:50:34.658Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 3,
+  "fields": {
+    "etudiant": 4,
+    "titre": "Inscription validee",
+    "message": "Bonjour VICTOIRE, votre inscription a la formation PYTHON a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:12:53.898Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 4,
+  "fields": {
+    "etudiant": 11,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour YJEAN LUC, votre inscription a la formation JAVA POUR LE WEB est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:14:45.397Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 5,
+  "fields": {
+    "etudiant": 11,
+    "titre": "Inscription validee",
+    "message": "Bonjour YJEAN LUC, votre inscription a la formation JAVA POUR LE WEB a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:15:52.681Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 6,
+  "fields": {
+    "etudiant": 12,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour YOUL, votre inscription a la formation PYTHON est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:24:45.004Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 7,
+  "fields": {
+    "etudiant": 12,
+    "titre": "Inscription validee",
+    "message": "Bonjour YOUL, votre inscription a la formation PYTHON a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:26:52.491Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 8,
+  "fields": {
+    "etudiant": 13,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour NESTOR, votre inscription a la formation JAVA POUR LE WEB est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-20T00:29:31.817Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 9,
+  "fields": {
+    "etudiant": 14,
+    "titre": "Inscription enregistree",
+    "message": "Bonjour NICK, votre inscription a la formation Introduction à l'Intelligence Artifficielle est enregistree et en attente de validation.",
+    "est_lue": false,
+    "created_at": "2026-02-21T09:23:22.176Z"
+  }
+},
+{
+  "model": "inscriptions.notificationutilisateur",
+  "pk": 10,
+  "fields": {
+    "etudiant": 14,
+    "titre": "Inscription validee",
+    "message": "Bonjour NICK, votre inscription a la formation Introduction à l'Intelligence Artifficielle a ete validee par l administrateur.",
+    "est_lue": false,
+    "created_at": "2026-02-21T09:26:25.438Z"
+  }
+},
+{
+  "model": "inscriptions.membreequipe",
+  "pk": 1,
+  "fields": {
+    "organisation": null,
+    "nom": "DOHOUPKA GERTRUDE",
+    "role": "PRESIDENTE",
+    "ordre_affichage": 1,
+    "created_at": "2026-02-27T19:14:58.852Z"
+  }
+},
+{
+  "model": "inscriptions.messagecontact",
+  "pk": 1,
+  "fields": {
+    "nom": "FULGENCE",
+    "email": "youlsansan123@gmail.com",
+    "message": "je veux appartenir à CFDCI",
+    "created_at": "2026-02-27T18:11:43.404Z",
+    "est_traite": false
+  }
+},
+{
+  "model": "inscriptions.messagecontact",
+  "pk": 2,
+  "fields": {
+    "nom": "LIZIE WILIAMS",
+    "email": "liziewiliams@gmail.com",
+    "message": "je suis en maths",
+    "created_at": "2026-02-27T20:47:47.380Z",
+    "est_traite": true
+  }
+}
+]
