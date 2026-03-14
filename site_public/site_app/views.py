@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.contrib import messages
 from django.core.mail import send_mail
 from django.conf import settings
+from .models import MessageContact
 
 
 def accueil(request):
@@ -30,9 +31,15 @@ def contact(request):
         sujet = request.POST.get('sujet')
         message = request.POST.get('message')
 
-        # Ici vous pouvez ajouter la logique d'envoi d'email
-        # send_mail(sujet, message, email, [settings.DEFAULT_FROM_EMAIL])
+        # Sauvegarde en base
+        MessageContact.objects.create(
+            nom=nom,
+            email=email,
+            sujet=sujet,
+            message=message
+        )
 
+        from django.contrib import messages
         messages.success(request, 'Votre message a été envoyé avec succès !')
         return render(request, 'site_app/contact.html')
 
