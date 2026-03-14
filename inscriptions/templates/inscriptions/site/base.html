@@ -1,16 +1,21 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}CFDCI{% endblock %}</title>
+    <link rel="icon" type="image/jpeg" href="{% static 'inscriptions/img/logo-cfdci.jpeg' %}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'inscriptions/css/site.css' %}">
 </head>
+
 <body>
     <header class="site-header">
         <nav class="navbar navbar-expand-lg">
@@ -54,11 +59,13 @@
             </p>
             <p class="mb-0 small">
                 {% if organisation and organisation.email_officiel %}{{ organisation.email_officiel }}{% endif %}
-                {% if organisation and organisation.telephone_officiel %} | {{ organisation.telephone_officiel }}{% endif %}
+                {% if organisation and organisation.telephone_officiel %} | {{ organisation.telephone_officiel }}{%
+                endif %}
             </p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
