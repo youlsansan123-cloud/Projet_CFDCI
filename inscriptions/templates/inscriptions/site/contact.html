@@ -15,11 +15,13 @@
         <div class="row g-4">
             <div class="col-lg-5">
                 <article class="content-card h-100">
-                    <h2>Coordonnees</h2>
-                    <p><strong>Email :</strong> {{ organisation.email_officiel|default:"youlsansan123@gmail.com" }}</p>
-                    <p><strong>Telephone :</strong> {{ organisation.telephone_officiel|default:"+225 07 78 11 49 38" }}
-                    </p>
-                    <p class="mb-0"><strong>Adresse :</strong> {{ organisation.adresse|default:"YOPOUGON" }}</p>
+                    <h2>Coordonnées</h2>
+                    <p><strong>Email :</strong> {{ organisation.email_officiel|default_if_none:"Non
+                        renseigné"|default:"Non renseigné" }}</p>
+                    <p><strong>Téléphone :</strong> {{ organisation.telephone_officiel|default_if_none:"Non
+                        renseigné"|default:"Non renseigné" }}</p>
+                    <p class="mb-0"><strong>Adresse :</strong> {{ organisation.adresse|default_if_none:"Non
+                        renseigné"|default:"Non renseigné" }}</p>
                 </article>
             </div>
             <div class="col-lg-7">
@@ -27,7 +29,7 @@
                     <h2>Formulaire de contact</h2>
 
                     {% if success_sent %}
-                    <div class="alert alert-success">Votre message a ete envoye avec succes.</div>
+                    <div class="alert alert-success">Votre message a été envoyé avec succès.</div>
                     {% endif %}
 
                     {% if messages %}
